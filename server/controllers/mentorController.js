@@ -1,4 +1,4 @@
-const mentorController = require('../services/mentorService');
+const mentorService = require('../services/mentorService');
 
 exports.createMentor = async (req, res) => {
     const {username, firstname, lastname, phone, route} = req.body;
