@@ -1,6 +1,6 @@
 const Mentor = require("../models/Mentor");
 
-exports.createMentor = async (username, first, lastname, phone, route) => {
+exports.createMentor = async (username, firstname, lastname, phone, route) => {
   const mentor = await Mentor.create({
     username,
     firstname,

@@ -1,5 +1,5 @@
 const { Router } = require('express');
-const mentorController = require('../controllers/mentroController');
+const mentorController = require('../controllers/mentorController');
 
 const router = Router();
 
